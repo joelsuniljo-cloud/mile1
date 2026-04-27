@@ -103,7 +103,7 @@ const CASES = [
     metric: '867K',
     metricLabel: 'likes',
     video: '/cases/duroflex.mp4',
-    logo: '/clients/duroflex.png',
+    logo: '/clients/duroflex.svg',
     accent: '#1a1a2e',
     accent2: '#3355FF',
     metrics: [
