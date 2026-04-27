@@ -1975,10 +1975,15 @@ const ContactPage = ({ setPage }) => {
   const [faqOpen, setFaqOpen] = useState(null);
 
   const onChange = (k) => (e) => setForm((p) => ({ ...p, [k]: e.target.value }));
-  const submit = (e) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+  const submit = async (e) => {
+  e.preventDefault();
+  const res = await fetch('https://formspree.io/f/xdayroza', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    body: JSON.stringify(form),
+  });
+  if (res.ok) setSubmitted(true);
+};
 
   const fieldBase = {
     width: '100%', background: 'transparent', border: 'none',
