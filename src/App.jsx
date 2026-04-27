@@ -902,7 +902,7 @@ const Footer = ({ setPage }) => (
 const HomePage = ({ setPage }) => {
   const clientLogos = [
     { src: '/clients/sony.svg',          alt: 'Sony',          height: 32 },
-    { src: '/clients/duroflex.svg',      alt: 'Duroflex',      height: 110 },
+    { src: '/clients/duroflex.svg',      alt: 'Duroflex',      height: 120 },
     { src: '/clients/jio-cinemas.png',   alt: 'JioHotstar',    height: 44 },
     { src: '/clients/amazon.webp',       alt: 'Amazon',        height: 44 },
     { src: '/clients/titan.svg',         alt: 'Titan',         height: 110 },
