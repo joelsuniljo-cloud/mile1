@@ -902,11 +902,11 @@ const Footer = ({ setPage }) => (
 const HomePage = ({ setPage }) => {
   const clientLogos = [
     { src: '/clients/sony.svg',          alt: 'Sony',          height: 32 },
-    { src: '/clients/duroflex.png',      alt: 'Duroflex',      height: 50 },
+    { src: '/clients/duroflex.svg',      alt: 'Duroflex',      height: 50 },
     { src: '/clients/jio-cinemas.png',   alt: 'JioHotstar',    height: 44 },
     { src: '/clients/amazon.webp',       alt: 'Amazon',        height: 40 },
-    { src: '/clients/titan.png',         alt: 'Titan',         height: 50 },
-    { src: '/clients/paris-corner.png',  alt: 'Paris Corner',  height: 36 },
+    { src: '/clients/titan.svg',         alt: 'Titan',         height: 50 },
+    { src: '/clients/paris-corner.svg',  alt: 'Paris Corner',  height: 36 },
   ];
 
   return (
