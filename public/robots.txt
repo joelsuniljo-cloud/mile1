@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mile1.co.in/sitemap.xml
