@@ -940,7 +940,7 @@ const HomePage = ({ setPage }) => {
 
         <Reveal delay={200}>
           <h1 style={{ fontSize: 'clamp(56px, 10vw, 168px)', fontWeight: 700, letterSpacing: '-0.035em', lineHeight: 0.95, margin: '32px 0 28px', maxWidth: 1200 }}>
-            Most ads get watched. <br />Ours get <span style={{ color: C.blue, fontStyle: 'italic' }}>bought</span>.
+            Most ads get watched. <br />Ours <span style={{ color: C.blue, fontStyle: 'italic' }}>Convert</span>.
           </h1>
         </Reveal>
 
